@@ -1,0 +1,7 @@
+Oppdatere main-grenen:
+
+git pull origin main
+
+Oppdatere feature-branch:
+
+git pull origin "navn på branch"
