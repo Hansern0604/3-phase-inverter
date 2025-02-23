@@ -1,0 +1,132 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bf38f143-5ed2-4208-a9ea-304c9f8985c2")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 152.4 21.59)
+		(end 269.24 100.33)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 22e337e1-47e7-433e-ab62-70c1c82f3d8b)
+	)
+	(rectangle
+		(start 22.86 21.59)
+		(end 139.7 100.33)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 610ddc60-3f9d-43a6-bbb3-d37605e69177)
+	)
+	(rectangle
+		(start 22.86 109.22)
+		(end 139.7 187.96)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 99cd9249-4169-472e-a680-a72f70fca54d)
+	)
+	(text "5V0"
+		(exclude_from_sim no)
+		(at 24.892 107.188 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(bold yes)
+			)
+		)
+		(uuid "21d015af-db2c-41f3-abb8-743458990535")
+	)
+	(text "12V"
+		(exclude_from_sim no)
+		(at 25.4 20.066 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(bold yes)
+			)
+		)
+		(uuid "4a1656ec-a9c1-42ff-83d8-5b8cc1876e07")
+	)
+	(text "3V3"
+		(exclude_from_sim no)
+		(at 154.94 20.066 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(bold yes)
+			)
+		)
+		(uuid "504a6414-4467-4c0b-b7de-8eb9dbd68b1d")
+	)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 260.35 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "348f9d87-4d3a-4436-990e-b67604dea03f")
+	)
+	(hierarchical_label "Vin-"
+		(shape input)
+		(at 31.75 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "81d67a29-6bfa-4c25-a6b8-691bbd38485b")
+	)
+	(hierarchical_label "5V0"
+		(shape input)
+		(at 130.81 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "935d58d0-5ba3-4ba5-9ec2-b617fd294791")
+	)
+	(hierarchical_label "Vin+"
+		(shape input)
+		(at 31.75 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "f71be1fc-75ae-4ded-8735-a262add3b83f")
+	)
+)

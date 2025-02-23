@@ -1,0 +1,1880 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b50a2036-9c11-4f06-9e82-4aceff647a7d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "7461383:7461383"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "7461383"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "7461383"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7461383.pdf"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "REDCUBE PRESS-FIT with external thread and full plain pin-plate WPSHFU"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12.5"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-7461383"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461383?qs=lykWx4dhCCFZ0JBsRfYENw%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "7461383"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "7461383_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -2.54 180)
+					(length 5.08)
+					(name "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -5.08 180)
+					(length 5.08)
+					(name "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -7.62 180)
+					(length 5.08)
+					(name "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -10.16 180)
+					(length 5.08)
+					(name "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -12.7 180)
+					(length 5.08)
+					(name "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -15.24 180)
+					(length 5.08)
+					(name "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 -17.78 180)
+					(length 5.08)
+					(name "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 22.86 0 180)
+					(length 5.08)
+					(name "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MAL225952471E3:MAL225952471E3"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MAL225952471E3"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "CAPPRD1000W190D2250H3700"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Aluminum Electrolytic Capacitors - Snap In 470uF 200V 20% 105C 3000H 22x35mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "37"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "594-MAL225952471E3"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL225952471E3?qs=r5DSvlrkXmLPpJeqIaq9jQ%3D%3D"
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Vishay"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MAL225952471E3"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MAL225952471E3_1_1"
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.064 1.778) (xy 4.064 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.572 1.27) (xy 3.556 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 2.54)
+					(end 5.842 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 45.72 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0556efc5-7888-42ab-8ffb-b082db172529")
+	)
+	(junction
+		(at 45.72 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19673649-780d-4c17-82e7-451cbceaf990")
+	)
+	(junction
+		(at 76.2 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24ab6c33-2ac8-41ef-b2da-3cda4fd40501")
+	)
+	(junction
+		(at 45.72 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2b654d16-c9fa-4210-97f8-65614fbeffdb")
+	)
+	(junction
+		(at 45.72 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47737e84-d4bc-4f21-8718-5ff00db80497")
+	)
+	(junction
+		(at 45.72 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "488ef343-eff3-4937-bbcc-700cc080daee")
+	)
+	(junction
+		(at 22.86 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52990b95-3308-4a1c-9a9b-be400b4c55d2")
+	)
+	(junction
+		(at 45.72 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5849b2b5-622d-4a2e-99e5-dbdc84d5ad99")
+	)
+	(junction
+		(at 22.86 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c0cc35a-be33-4edd-a542-eff4ed06f1d2")
+	)
+	(junction
+		(at 22.86 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "635ec3a8-6eae-4761-b15b-c5525cdf2a72")
+	)
+	(junction
+		(at 22.86 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72cbec8a-8b02-4d67-8850-3064c70a2859")
+	)
+	(junction
+		(at 22.86 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7532032a-ab46-4b8c-8439-e8c070c1b329")
+	)
+	(junction
+		(at 22.86 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ea728a8-7573-493a-b993-9b9898aa1980")
+	)
+	(junction
+		(at 45.72 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "801b401c-d711-4c05-9377-ad01b7661418")
+	)
+	(junction
+		(at 50.8 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "82a85476-1797-4212-9e65-60713eb7e797")
+	)
+	(junction
+		(at 22.86 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c0bcae-cceb-4b24-97e1-115917d26f85")
+	)
+	(junction
+		(at 22.86 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bdfc2e8-89af-484a-978d-cb8e356aa77b")
+	)
+	(junction
+		(at 45.72 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "93eba917-96fa-42d5-8b5d-df5458508e67")
+	)
+	(junction
+		(at 45.72 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c1d7f11-fb83-4203-b66b-ed37e0c134a9")
+	)
+	(junction
+		(at 22.86 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f96af43-87e5-467b-bc8e-37c0d3d23afb")
+	)
+	(junction
+		(at 45.72 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a62ba5b0-e640-432a-8edb-164ee7e90d92")
+	)
+	(junction
+		(at 45.72 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa5ad721-6bd6-4ae6-be74-81bc69eb3168")
+	)
+	(junction
+		(at 22.86 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4d0a4db-aa65-4448-8a7c-a185465928b8")
+	)
+	(junction
+		(at 45.72 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bef6bf45-3ffe-4633-9bde-958799a175e7")
+	)
+	(junction
+		(at 45.72 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c9a59018-48f1-4842-bb30-7de8ad5e09a8")
+	)
+	(junction
+		(at 45.72 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce8e68fd-e816-457b-a750-e87144438813")
+	)
+	(junction
+		(at 50.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1efd054-9452-4407-a567-ec0a5e02b909")
+	)
+	(junction
+		(at 22.86 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d649fdab-a80c-4a3c-b49d-5f8b4917c32a")
+	)
+	(junction
+		(at 22.86 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da8710f7-e79d-4644-958f-07f1c7b212e5")
+	)
+	(junction
+		(at 22.86 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dde53187-e3b7-43e6-af4f-fb093501055a")
+	)
+	(junction
+		(at 22.86 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e675babc-5721-46b3-ba3a-d829c63e221b")
+	)
+	(junction
+		(at 45.72 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec1388a1-c6df-4c57-b98a-f6079771ef79")
+	)
+	(junction
+		(at 76.2 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec62706f-53e0-4e8b-bd94-7ef4484e4197")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032f221d-1e58-445a-b7f1-1185294964d2")
+	)
+	(wire
+		(pts
+			(xy 22.86 69.85) (xy 22.86 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090e252d-9b14-4b8e-8d98-8f190bed4a09")
+	)
+	(wire
+		(pts
+			(xy 22.86 50.8) (xy 22.86 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a1ab65f-10d9-4fe2-bbbf-db4f15ea6a33")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 80.01 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a535c1e-5f8a-46d5-8cc0-daec45e1b5d4")
+	)
+	(wire
+		(pts
+			(xy 45.72 38.1) (xy 45.72 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "112b242f-8920-402a-89b9-8d4119a6a04e")
+	)
+	(wire
+		(pts
+			(xy 50.8 54.61) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13984c70-6c86-4fde-95a0-6b356d702f98")
+	)
+	(wire
+		(pts
+			(xy 45.72 80.01) (xy 45.72 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14d115e4-eab3-4de0-b2cc-9e47f37a6f26")
+	)
+	(wire
+		(pts
+			(xy 22.86 53.34) (xy 22.86 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "193beef1-b75b-4431-8bcc-7027c609fbb8")
+	)
+	(wire
+		(pts
+			(xy 45.72 87.63) (xy 45.72 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c3f698-edff-477c-859a-85a82354154c")
+	)
+	(wire
+		(pts
+			(xy 45.72 69.85) (xy 50.8 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b1b7e85-9430-43d7-b2c0-23589e8b7289")
+	)
+	(wire
+		(pts
+			(xy 45.72 85.09) (xy 45.72 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373a1c8b-2ff0-4e96-a67b-302084998c9f")
+	)
+	(wire
+		(pts
+			(xy 45.72 40.64) (xy 45.72 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "386af413-8ab3-47bc-bbb9-d89e527a98ce")
+	)
+	(wire
+		(pts
+			(xy 22.86 85.09) (xy 22.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4069dce3-69d2-4fb4-aa48-db61e02d868f")
+	)
+	(wire
+		(pts
+			(xy 45.72 74.93) (xy 45.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4118990d-1091-422f-be71-64a558a80c57")
+	)
+	(wire
+		(pts
+			(xy 22.86 35.56) (xy 22.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e1bb386-bc59-45bd-989e-caac0658fbca")
+	)
+	(wire
+		(pts
+			(xy 45.72 72.39) (xy 45.72 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508e842a-7dad-45f9-807b-47a7271214c8")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 76.2 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65522877-f9a2-4d64-ad3d-73a74d253cf4")
+	)
+	(wire
+		(pts
+			(xy 22.86 72.39) (xy 22.86 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b6f5c7-61f0-455d-9670-7fbda34eea5d")
+	)
+	(wire
+		(pts
+			(xy 45.72 53.34) (xy 45.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74a23d21-4275-4462-a464-a73314545402")
+	)
+	(wire
+		(pts
+			(xy 22.86 38.1) (xy 22.86 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87d48a05-5411-4873-960a-fc12206734d6")
+	)
+	(wire
+		(pts
+			(xy 22.86 91.44) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887896f5-944b-459d-9b0a-eea88af902e0")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89208988-f006-4e39-9b94-d3dbbe8f34be")
+	)
+	(wire
+		(pts
+			(xy 22.86 43.18) (xy 22.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cca2430-86b0-4669-b790-100bba5f966a")
+	)
+	(wire
+		(pts
+			(xy 22.86 45.72) (xy 22.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e017c99-f521-43c0-b6ed-04605eafa1b5")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 76.2 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96456894-0a90-4e1c-944c-22c9004ba890")
+	)
+	(wire
+		(pts
+			(xy 22.86 87.63) (xy 22.86 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bffa7f9-4c65-41ec-b35e-5f72b74682bd")
+	)
+	(wire
+		(pts
+			(xy 22.86 57.15) (xy 45.72 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa553872-5952-4131-ad77-51bbf87a3812")
+	)
+	(wire
+		(pts
+			(xy 45.72 50.8) (xy 45.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac97923e-5552-4301-852d-85c4ca3a1862")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 50.8 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba44341-7194-42cf-9075-dad1a17b1016")
+	)
+	(wire
+		(pts
+			(xy 22.86 80.01) (xy 22.86 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdb94953-fe62-44be-b98d-7c62fa99e729")
+	)
+	(wire
+		(pts
+			(xy 45.72 45.72) (xy 45.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6c5706d-06b4-4043-884a-72f610b3ffc9")
+	)
+	(wire
+		(pts
+			(xy 22.86 82.55) (xy 22.86 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba1e271-bfba-4164-b2f3-c71a7941d203")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 45.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce942bd0-a5ef-4ba1-b07f-62d81cf1a53f")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 76.2 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d40587ce-024f-416b-9262-cbaf065094dc")
+	)
+	(wire
+		(pts
+			(xy 22.86 48.26) (xy 22.86 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8221c33-4db9-4cf7-a4f5-a46fc609d05b")
+	)
+	(wire
+		(pts
+			(xy 22.86 74.93) (xy 22.86 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a69990-b734-4162-a961-dc6311fdb3f7")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 76.2 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd1db220-60a8-460e-8dba-67670458805a")
+	)
+	(wire
+		(pts
+			(xy 45.72 43.18) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e114c9e9-b052-4dfe-b977-2fd9b93573ad")
+	)
+	(wire
+		(pts
+			(xy 22.86 77.47) (xy 22.86 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea008638-dd0b-4def-8b4a-24b59844c8da")
+	)
+	(wire
+		(pts
+			(xy 45.72 82.55) (xy 45.72 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08898f0-dc61-4079-81b1-e4090d1b7f9e")
+	)
+	(wire
+		(pts
+			(xy 22.86 40.64) (xy 22.86 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0d359de-a86c-453a-a911-90f4fc8bc24c")
+	)
+	(wire
+		(pts
+			(xy 45.72 77.47) (xy 45.72 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3d1043c-1e09-4ee1-8448-278b2870d588")
+	)
+	(wire
+		(pts
+			(xy 45.72 35.56) (xy 45.72 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4dd3a91-b664-4f81-a290-26288386e9c3")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 45.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa03147b-fa9f-4bf1-b7cb-62db35fec9f6")
+	)
+	(rectangle
+		(start 19.05 24.13)
+		(end 99.06 95.25)
+		(stroke
+			(width 0.254)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d27491bf-a8e1-4d0a-8e94-edf1071efa0f)
+	)
+	(text "Input"
+		(exclude_from_sim no)
+		(at 22.352 22.606 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 1.905 1.905)
+				(bold yes)
+			)
+		)
+		(uuid "3706f0c7-db91-49b2-b984-b8256baa0d96")
+	)
+	(hierarchical_label "Vin+"
+		(shape input)
+		(at 80.01 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "05710fa7-ac70-4bf5-9aee-f3f8842873b1")
+	)
+	(hierarchical_label "Vin-"
+		(shape input)
+		(at 80.01 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "f2152ed9-5401-4607-9ba6-73fe9a4f4d8c")
+	)
+	(symbol
+		(lib_id "MAL225952471E3:MAL225952471E3")
+		(at 76.2 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c3f1c67-cc92-471a-b2f9-d33bae003790")
+		(property "Reference" "C2"
+			(at 80.01 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAL225952471E3"
+			(at 80.01 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InputCap:CAPPRD1000W190D2250H3700"
+			(at -19.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -119.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - Snap In 470uF 200V 20% 105C 3000H 22x35mm"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "37"
+			(at -319.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "594-MAL225952471E3"
+			(at -419.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL225952471E3?qs=r5DSvlrkXmLPpJeqIaq9jQ%3D%3D"
+			(at -519.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -619.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAL225952471E3"
+			(at -719.99 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c3106bd4-ca51-4926-98ac-2e2f00e8eb06")
+		)
+		(pin "1"
+			(uuid "7c8e0c9d-754e-4193-b9de-c6b971bc8545")
+		)
+		(instances
+			(project "TPIC"
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7/26a82af6-2b7b-4ebd-9b54-0b46860379af"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "7461383:7461383")
+		(at 22.86 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "320e89c4-017d-4af8-ad1e-fb620040b559")
+		(property "Reference" "IC2"
+			(at 34.29 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7461383"
+			(at 34.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InOutConn:7461383"
+			(at 41.91 164.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7461383.pdf"
+			(at 41.91 264.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "REDCUBE PRESS-FIT with external thread and full plain pin-plate WPSHFU"
+			(at 22.86 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.5"
+			(at 41.91 464.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-7461383"
+			(at 41.91 564.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461383?qs=lykWx4dhCCFZ0JBsRfYENw%3D%3D"
+			(at 41.91 664.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 41.91 764.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "7461383"
+			(at 41.91 864.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "aa46353b-f5e4-4fae-8cb0-c664938e57b6")
+		)
+		(pin "4"
+			(uuid "7621f8b3-473e-4b9b-8c72-627eb6929691")
+		)
+		(pin "8"
+			(uuid "4f30b20b-f29b-4a5a-b045-a4688509c292")
+		)
+		(pin "10"
+			(uuid "4bdc4a46-0459-4680-83f2-1c542a209e1a")
+		)
+		(pin "12"
+			(uuid "5207405c-5913-4130-8403-210a3fd3f969")
+		)
+		(pin "14"
+			(uuid "0cc97325-19d3-4812-a9a3-d37174fb4c89")
+		)
+		(pin "3"
+			(uuid "a3d42374-44a3-478d-97fd-19f26aadca2f")
+		)
+		(pin "2"
+			(uuid "c7cbc31d-6f12-45e9-8215-fbdb852498dd")
+		)
+		(pin "11"
+			(uuid "95cdda35-ed9e-4396-bdbb-d92b0fd92ad8")
+		)
+		(pin "9"
+			(uuid "8d236af3-5ae2-41d9-875e-29e427ed0b46")
+		)
+		(pin "7"
+			(uuid "8c5d1c29-0c7f-49a8-a6ee-a801f79e2e64")
+		)
+		(pin "15"
+			(uuid "daa96bc5-d84c-4e1e-8771-4f01b969cd0c")
+		)
+		(pin "16"
+			(uuid "7350f68d-b307-4456-9a17-95b9f70a6669")
+		)
+		(pin "1"
+			(uuid "e7f3d3a0-c876-4704-a404-96a2e42a8725")
+		)
+		(pin "6"
+			(uuid "40cb319d-abd9-439e-a68c-88f6a0d268a8")
+		)
+		(pin "13"
+			(uuid "cdb14027-d0e3-45bc-8412-304c4cb9596e")
+		)
+		(instances
+			(project "TPIC"
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7/26a82af6-2b7b-4ebd-9b54-0b46860379af"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "7461383:7461383")
+		(at 22.86 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35bc3b67-bcbb-429a-b2c1-4539769dcfbc")
+		(property "Reference" "IC1"
+			(at 34.29 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "7461383"
+			(at 34.29 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "InOutConn:7461383"
+			(at 41.91 130.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/catalog/datasheet/7461383.pdf"
+			(at 41.91 230.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "REDCUBE PRESS-FIT with external thread and full plain pin-plate WPSHFU"
+			(at 22.86 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12.5"
+			(at 41.91 430.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-7461383"
+			(at 41.91 530.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/7461383?qs=lykWx4dhCCFZ0JBsRfYENw%3D%3D"
+			(at 41.91 630.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 41.91 730.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "7461383"
+			(at 41.91 830.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b9859dd2-10a8-4af5-8acc-886f0729f1f5")
+		)
+		(pin "4"
+			(uuid "983ea950-3f9d-40b6-8c6e-9ce38fa5644f")
+		)
+		(pin "8"
+			(uuid "84578396-4652-49f2-9eee-9a186975b422")
+		)
+		(pin "10"
+			(uuid "d9645580-0ff6-4ad0-8f40-3d3f27e19767")
+		)
+		(pin "12"
+			(uuid "eeda6f7e-f675-4d15-ab7e-1680d25f2e37")
+		)
+		(pin "14"
+			(uuid "2d54555d-214b-4002-b417-20e832611f8a")
+		)
+		(pin "3"
+			(uuid "cf9da22f-8bf1-4b70-9b03-ac5af739208c")
+		)
+		(pin "2"
+			(uuid "665428f9-a5bd-4965-b86c-4fff008970fd")
+		)
+		(pin "11"
+			(uuid "28ab81e0-290d-4c42-afef-8cbec8c67e65")
+		)
+		(pin "9"
+			(uuid "f59a84cb-677e-4fb0-aaf2-2434fd725d52")
+		)
+		(pin "7"
+			(uuid "369536db-85bc-48c3-97ed-821558aa723e")
+		)
+		(pin "15"
+			(uuid "1eb416ee-5ab3-411b-b33e-edf9b4a30cfa")
+		)
+		(pin "16"
+			(uuid "f4ef3193-5c69-458c-a622-ce067767c10b")
+		)
+		(pin "1"
+			(uuid "4853a7fe-85ec-40eb-b7ee-085aeb06ebdb")
+		)
+		(pin "6"
+			(uuid "e9fc0a51-ed6f-4737-890b-f201a905c948")
+		)
+		(pin "13"
+			(uuid "5e8cde40-bec6-4cca-a2db-b71b6f76459c")
+		)
+		(instances
+			(project ""
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7/26a82af6-2b7b-4ebd-9b54-0b46860379af"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MAL225952471E3:MAL225952471E3")
+		(at 50.8 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53599a0d-0401-46d7-9d49-48d3eaf79641")
+		(property "Reference" "C1"
+			(at 54.61 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MAL225952471E3"
+			(at 54.61 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "InputCap:CAPPRD1000W190D2250H3700"
+			(at -45.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -145.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Aluminum Electrolytic Capacitors - Snap In 470uF 200V 20% 105C 3000H 22x35mm"
+			(at 50.8 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "37"
+			(at -345.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "594-MAL225952471E3"
+			(at -445.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL225952471E3?qs=r5DSvlrkXmLPpJeqIaq9jQ%3D%3D"
+			(at -545.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at -645.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAL225952471E3"
+			(at -745.39 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "95f725b4-788e-47d6-bea5-f40c3701d66e")
+		)
+		(pin "1"
+			(uuid "9ecd6db2-1735-4e5a-8dee-7be31d61a91f")
+		)
+		(instances
+			(project ""
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7/26a82af6-2b7b-4ebd-9b54-0b46860379af"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

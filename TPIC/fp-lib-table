@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "InputCap")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_MAL225952471E3/MAL225952471E3/KiCad")(options "")(descr ""))
+  (lib (name "InOutConn")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_7461383/7461383/KiCad")(options "")(descr ""))
+)

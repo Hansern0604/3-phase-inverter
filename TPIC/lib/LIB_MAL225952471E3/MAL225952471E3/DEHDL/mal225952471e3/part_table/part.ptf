@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MAL225952471E3'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Vishay", "MAL225952471E3" (!) = "", "CAPPRD1000W190D2250H3700", "Capacitor, Polarized Radial Diameter", "594-MAL225952471E3", "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/MAL225952471E3?qs=r5DSvlrkXmLPpJeqIaq9jQ%3D%3D", "Aluminum Electrolytic Capacitors - Snap In 470uF 200V 20% 105C 3000H 22x35mm", "", "37 mm"
+END_PART
+
+END.

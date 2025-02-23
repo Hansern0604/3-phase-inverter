@@ -1,0 +1,9 @@
+Manufacturer=Vishay
+PartNumber=MAL225952471E3
+PartCategory=Capacitor Polarised
+PackageCategory=Capacitor, Polarized Radial Diameter
+PinCount=2
+Version=1.1
+Released=2021-10-21 04:35:53
+Downloaded=2025-02-23 11:48:34
+3D=Y

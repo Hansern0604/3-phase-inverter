@@ -1,0 +1,21 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "76552434-5426-437e-983d-83ef64e659f5")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "3V3"
+		(shape input)
+		(at 25.4 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "09d0a5d8-c577-4c67-a21b-0c9bc3e5ad08")
+	)
+)

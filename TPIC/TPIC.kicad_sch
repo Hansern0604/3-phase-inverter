@@ -4,1076 +4,569 @@
 	(generator_version "8.0")
 	(uuid "83ed4d11-6a43-4272-9e6f-0f34997cb1e7")
 	(paper "A4")
-	(lib_symbols
-		(symbol "4xxx:4001"
-			(pin_names
-				(offset 1.016)
+	(title_block
+		(title "Three Phase Inverter Control card")
+		(date "2025-02-23")
+		(rev "-")
+		(company "Ødegårdstuen Productions")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 99.06 105.41) (xy 99.06 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d8faf8-1379-4187-8aa7-71aee55206b6")
+	)
+	(wire
+		(pts
+			(xy 99.06 92.71) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "530d34c1-69a8-4997-b1c4-b6a866489d0f")
+	)
+	(wire
+		(pts
+			(xy 102.87 105.41) (xy 99.06 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bf4d9ee-0be7-4a1d-9ef4-1089c4f82cb1")
+	)
+	(wire
+		(pts
+			(xy 77.47 87.63) (xy 102.87 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa88cf47-80fd-4f7b-b389-a0304ee0eda9")
+	)
+	(wire
+		(pts
+			(xy 77.47 85.09) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea7e14a-fd54-4e25-a06b-cb4261c3edbb")
+	)
+	(rectangle
+		(start 158.75 125.73)
+		(end 204.47 156.21)
+		(stroke
+			(width 0.127)
+			(type default)
+			(color 78 26 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 21146405-f118-4f37-a8b5-ab1f8de72b8d)
+	)
+	(rectangle
+		(start 153.67 76.2)
+		(end 209.55 161.29)
+		(stroke
+			(width 0.0762)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 772eaeb0-fc75-4bdc-a682-8b620b12e8c4)
+	)
+	(rectangle
+		(start 48.26 76.2)
+		(end 135.89 161.29)
+		(stroke
+			(width 0.0762)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a070777c-e1ca-4d9b-9336-88f57898f5e5)
+	)
+	(circle
+		(center 242.824 119.38)
+		(radius 13.0755)
+		(stroke
+			(width 0)
+			(type dash_dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eeb057ca-be07-4daa-81ed-0e7bf45f4e44)
+	)
+	(rectangle
+		(start 158.75 81.28)
+		(end 204.47 111.76)
+		(stroke
+			(width 0.127)
+			(type default)
+			(color 78 26 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f0b46f8f-dbdc-4128-a0bf-701865994c4d)
+	)
+	(image
+		(at 218.44 119.38)
+		(scale 0.351632)
+		(uuid "392eda62-eb36-4df2-8926-8fb60cd6efcd")
+		(data "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"
+		)
+	)
+	(image
+		(at 144.78 119.38)
+		(scale 0.351632)
+		(uuid "d0f8d907-e33f-483d-9660-f126824139fd")
+		(data "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"
+		)
+	)
+	(text "Connectors"
+		(exclude_from_sim no)
+		(at 163.83 80.264 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 209 68 0 1)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+		)
+		(uuid "0886ffc4-35e0-4398-b3a7-9275990215d6")
+	)
+	(text "PMSM\n3-phase\nAC"
+		(exclude_from_sim no)
+		(at 242.824 119.38 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
 			)
-			(property "Value" "4001"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
+		)
+		(uuid "1dac82ed-8dbe-4bda-ae6b-1e67bcd40664")
+	)
+	(text "TPIP"
+		(exclude_from_sim no)
+		(at 158.75 73.914 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
 			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
+		)
+		(uuid "44d165f4-c1bd-4748-a152-860d7ecee8d8")
+	)
+	(text "Three Phase MOSFET Bridge"
+		(exclude_from_sim no)
+		(at 172.212 124.714 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 209 68 0 1)
 			)
-			(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
+		)
+		(uuid "9013974c-c664-456c-b202-20bdd1a7654a")
+	)
+	(text "Three Phase Inverter Control card"
+		(exclude_from_sim no)
+		(at 100.838 27.178 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 7.62 7.62)
+				(bold yes)
 			)
-			(property "Description" "Quad Nor 2 inputs"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
+		)
+		(uuid "ac875eaf-622a-40a4-b235-3c035b596677")
+	)
+	(text "TPIC"
+		(exclude_from_sim no)
+		(at 53.594 74.168 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(bold yes)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+		)
+		(uuid "e0484fea-509b-439b-813a-d35c589d8fab")
+	)
+	(sheet
+		(at 102.87 101.6)
+		(size 25.4 12.7)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0f03bf2e-4c38-486d-b6fe-f91e71f63d85")
+		(property "Sheetname" "Microcontroller"
+			(at 102.87 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-			(property "ki_keywords" "CMOS Nor2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
+		)
+		(property "Sheetfile" "Microcontroller.kicad_sch"
+			(at 102.616 114.808 0)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
-			(property "ki_fp_filters" "DIP?14*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
+		)
+		(pin "3V3" input
+			(at 102.87 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
+				(justify left)
 			)
-			(symbol "4001_1_1"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_1_2"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_2_1"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_2_2"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_3_1"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_3_2"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_4_1"
-				(arc
-					(start -3.81 -3.81)
-					(mid -2.589 0)
-					(end -3.81 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.6096 -3.81)
-					(mid 2.1842 -2.5851)
-					(end 3.81 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 -3.81) (xy -0.635 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.81 3.81) (xy -0.635 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 3.81) (xy -3.81 3.81) (xy -3.81 3.81) (xy -3.556 3.4036) (xy -3.0226 2.2606) (xy -2.6924 1.0414)
-						(xy -2.6162 -0.254) (xy -2.7686 -1.4986) (xy -3.175 -2.7178) (xy -3.81 -3.81) (xy -3.81 -3.81)
-						(xy -0.635 -3.81)
-					)
-					(stroke
-						(width -25.4)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start 3.81 0)
-					(mid 2.1915 2.5936)
-					(end -0.6096 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output inverted
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 4.318)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_4_2"
-				(arc
-					(start 0 -3.81)
-					(mid 3.7934 0)
-					(end 0 3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.81) (xy -3.81 3.81) (xy -3.81 -3.81) (xy 0 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at -7.62 -2.54 0)
-					(length 3.81)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_5_0"
-				(pin power_in line
-					(at 0 12.7 270)
-					(length 5.08)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 5.08)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "4001_5_1"
-				(rectangle
-					(start -5.08 7.62)
-					(end 5.08 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
+			(uuid "83117d11-cb45-46ae-8018-11e4f4ec1de2")
+		)
+		(instances
+			(project "TPIC"
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7"
+					(page "3")
 				)
 			)
 		)
 	)
-	(symbol
-		(lib_id "4xxx:4001")
-		(at 129.54 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(sheet
+		(at 52.07 81.28)
+		(size 25.4 73.66)
 		(fields_autoplaced yes)
-		(uuid "372054b7-1c4b-41cf-953a-3b46d803754a")
-		(property "Reference" "U1"
-			(at 129.54 64.77 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26a82af6-2b7b-4ebd-9b54-0b46860379af")
+		(property "Sheetname" "Connectors"
+			(at 52.07 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Value" "4001"
-			(at 129.54 67.31 0)
+		(property "Sheetfile" "Connectors.kicad_sch"
+			(at 52.07 155.5246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 73.66 0)
+		(pin "Vin+" input
+			(at 77.47 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
+			(uuid "3d86ae54-fab9-4791-9f6e-2c67a7a9304f")
 		)
-		(property "Datasheet" "http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4000bms-01bms-02bms-25bms.pdf"
-			(at 129.54 73.66 0)
+		(pin "Vin-" input
+			(at 77.47 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
-		)
-		(property "Description" "Quad Nor 2 inputs"
-			(at 129.54 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1e918c08-a482-4fa8-9190-c70d03e1c0de")
-		)
-		(pin "2"
-			(uuid "bb80e064-ea28-46d6-b9aa-c68e894937c2")
-		)
-		(pin "6"
-			(uuid "77ecd252-a31e-4a3d-8cc6-52c4baf842c3")
-		)
-		(pin "4"
-			(uuid "9b58c349-3ab0-4781-8881-8fe082308877")
-		)
-		(pin "10"
-			(uuid "b15c963c-a021-403e-ae34-7250bfce6f88")
-		)
-		(pin "8"
-			(uuid "7a0318dd-8b50-43a0-ae71-f6384aa016ab")
-		)
-		(pin "9"
-			(uuid "cdfe186d-21a3-46a0-977d-39f4d65702f7")
-		)
-		(pin "11"
-			(uuid "76f75f69-fe9f-4b82-8165-6eb014dbd27b")
-		)
-		(pin "12"
-			(uuid "71014a2c-b8cd-42cf-a8a3-224e7d515547")
-		)
-		(pin "13"
-			(uuid "f7fbf031-037e-435d-aaa8-9393db7ee6b0")
-		)
-		(pin "14"
-			(uuid "4cdd6bd4-78c1-4d1d-948e-cca205571d50")
-		)
-		(pin "7"
-			(uuid "fca51def-81ad-4631-a0de-779bf7a6e6ea")
-		)
-		(pin "1"
-			(uuid "480bb2e7-59dc-4944-af9b-34b311f24105")
-		)
-		(pin "5"
-			(uuid "187f2a79-1241-4f3a-a8b9-33e524a4389e")
+			(uuid "b177bc0a-475a-41f7-8bb7-2101894de2c1")
 		)
 		(instances
-			(project ""
+			(project "TPIC"
 				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7"
-					(reference "U1")
-					(unit 1)
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 81.28)
+		(size 25.4 13.97)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d4fe120-6485-4992-adc1-3d99732420a6")
+		(property "Sheetname" "Power Supplies"
+			(at 102.87 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PowerSupplies.kicad_sch"
+			(at 102.362 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Vin+" input
+			(at 102.87 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "be602be5-2e6d-45dc-b827-f0b05b87c656")
+		)
+		(pin "Vin-" input
+			(at 102.87 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a897e4a-4965-4f5b-a064-307930d56a0a")
+		)
+		(pin "5V0" input
+			(at 102.87 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b7eadfc-53e2-4e41-9ada-ca7c69410a38")
+		)
+		(pin "3V3" input
+			(at 102.87 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6288487b-8f7d-4e1a-bf4d-a4e161c1a68d")
+		)
+		(instances
+			(project "TPIC"
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 121.92)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b81e3dc7-2fd5-4176-8517-a228456f1732")
+		(property "Sheetname" "Communication"
+			(at 102.87 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Communication.kicad_sch"
+			(at 102.87 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TPIC"
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 142.24)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "df67fada-33fe-45bf-b328-9a30f63f836f")
+		(property "Sheetname" "Current Sensors"
+			(at 102.87 141.5284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CurrrentSense.kicad_sch"
+			(at 102.87 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "TPIC"
+				(path "/83ed4d11-6a43-4272-9e6f-0f34997cb1e7"
+					(page "4")
 				)
 			)
 		)

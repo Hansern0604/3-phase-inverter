@@ -1,0 +1,128 @@
+(footprint "CAPPRD1000W190D2250H3700"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "22X35_2021")
+	(tags "Capacitor Polarised")
+	(property "Reference" "C**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "80079c5e-3aea-451a-986d-f6da89949f35")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPPRD1000W190D2250H3700"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "c933d27a-7abc-4c13-8a71-e65f0320cf91")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f34f5996-fc04-4219-9206-414744cc30ab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6115a891-1c02-44be-abb6-13f8530cd09f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d8a12e7c-04c7-4144-af49-b0bd9bd4468f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 5 0)
+		(end 5 11.25)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "484c5cc1-94d1-4267-951f-540205d66089")
+	)
+	(fp_circle
+		(center 5 0)
+		(end 5 11.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "cf47af01-4540-4fe5-b31e-1ca6def37053")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "25e4fcc7-07bb-4c33-bf4d-8be50c47e972")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at 0 0)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50dc0a94-9f66-405b-a487-8954fc7b40db")
+	)
+	(pad "2" thru_hole circle
+		(at 10 0)
+		(size 3.15 3.15)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "781f1df5-425c-423d-9227-13e8dfe4fc12")
+	)
+	(model "${KIPRJMOD}/lib/LIB_MAL225952471E3/MAL225952471E3/3D/MAL225952471E3.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
