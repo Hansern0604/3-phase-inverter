@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "MAL225952471E3")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_MAL225952471E3/MAL225952471E3/KiCad/MAL225952471E3.kicad_sym")(options "")(descr ""))
   (lib (name "7461383")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_7461383/7461383/KiCad/7461383.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32G474QET6")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_STM32G474QET6/STM32G474QET6/KiCad/STM32G474QET6.kicad_sym")(options "")(descr ""))
+  (lib (name "ECS-80-10-33-CGN-TR3")(type "KiCad")(uri "${KIPRJMOD}/lib/LIB_ECS-80-10-33-CGN-TR3/ECS-80-10-33-CGN-TR3/KiCad/ECS-80-10-33-CGN-TR3.kicad_sym")(options "")(descr ""))
 )

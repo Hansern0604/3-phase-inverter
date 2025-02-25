@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ECS-80-10-33-CGN-TR3"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-01-23-06:07:08)
+    (mountForm default
+        (footprintRef "ECS801033CGNTR3")
+        (spec "System")
+    )
+)

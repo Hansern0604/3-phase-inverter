@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32G474QET6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=128
+Version=1.2
+Released=2020-03-30 09:54:05
+Downloaded=2025-02-25 19:44:59
+3D=Y

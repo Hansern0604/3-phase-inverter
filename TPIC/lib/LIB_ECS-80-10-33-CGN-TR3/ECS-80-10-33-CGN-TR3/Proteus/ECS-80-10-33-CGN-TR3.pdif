@@ -1,0 +1,116 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ECS-80-10-33-CGN-TR3"
+   (description "Crystals 8MHz 10 pF 3225 TOL +/-10, STAB +/-30 ppm, -40 +85 C, 400O")
+   (family "OSC")
+   (package "ECS801033CGNTR3")
+   (attribute "Datasheet Link" "https://www.mouser.at/ProductDetail/ECS/ECS-80-10-33-CGN-TR3?qs=7D1LtPJG0i1ECQY78wJ83A%3D%3D")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "520-80-10-33-CGN-TR3")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ECS/ECS-80-10-33-CGN-TR3?qs=7D1LtPJG0i1ECQY78wJ83A%3D%3D")
+   (attribute "Manufacturer_Name" "ECS")
+   (attribute "Manufacturer_Part_Number" "ECS-80-10-33-CGN-TR3")
+   (gate
+    (symbol "ECS-80-10-33-CGN-TR3")
+    (pin "IN/OUT" 1 PS)
+    (pin "GND_1" 2 PS)
+    (pin "OUT/IN" 3 PS)
+    (pin "GND_2" 4 PS)
+   )
+  )
+  (symbol "ECS-80-10-33-CGN-TR3"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1100 100) (pt 1100 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1300 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ECS801033CGNTR3"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.6 -1.25)
+      (pt 1.6 -1.25)
+      (pt 1.6 1.25)
+      (pt -1.6 1.25)
+      (pt -1.6 -1.25))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 2.45)
+      (pt 2.8 2.45)
+      (pt 2.8 -2.45)
+      (pt -2.8 -2.45)
+      (pt -2.8 2.45))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.8 2.45)
+      (pt 2.8 2.45)
+      (pt 2.8 -2.45)
+      (pt -2.8 -2.45)
+      (pt -2.8 2.45))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.5 -0.9)
+      (arc (pt -2.500 -0.900) (pt -2.500 -0.950) (pt -2.400 -0.850) (start 180.0) (sweep 180.0))
+      (pt -2.4 -0.9)
+      (arc (pt -2.400 -0.900) (pt -2.500 -0.950) (pt -2.400 -0.850) (start 180.0) (sweep .0))
+      (pt -2.5 -0.9))))
+   (leg 1 (pt -1.150 -0.900) (padstack 0))
+   (leg 2 (pt 1.150 -0.900) (padstack 0))
+   (leg 3 (pt 1.150 0.900) (padstack 0))
+   (leg 4 (pt -1.150 0.900) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.100 1.300 0 0 0.000))
+   )
+   (model "ECS-80-10-33-CGN-TR3.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

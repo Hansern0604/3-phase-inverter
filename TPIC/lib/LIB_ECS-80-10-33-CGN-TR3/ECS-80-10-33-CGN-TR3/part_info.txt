@@ -1,0 +1,9 @@
+Manufacturer=ECS
+PartNumber=ECS-80-10-33-CGN-TR3
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.2
+Released=2022-01-23 06:07:08
+Downloaded=2025-02-25 20:16:04
+3D=Y

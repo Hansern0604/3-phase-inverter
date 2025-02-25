@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STM32G474QET6"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-12-02-14:17:03)
+    (mountForm default
+        (footprintRef "QFP40P1600X1600X160-128N")
+        (spec "System")
+    )
+)
